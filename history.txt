@@ -1,0 +1,532 @@
+    1  yum update
+    2  yum repolist all
+    3  mandb
+    4  updatedb
+    5  hostnamectl
+    6  docker --version
+    7  cd /etc/yum.repos.d/
+    8  touchh docker.repo
+    9  touch docker.repo
+   10  vim docker.repo
+   11  yum repolist all
+   12  ls -l
+   13  vim docker.repo 
+   14  sudo yum update -y
+   15  vim docker.repo 
+   16  sudo yum update -y
+   17  sudo yum install docker-engine
+   18  docker --version
+   19  yum repolist all
+   20  sudo service docker start
+   21  systemctl status docker
+   22  systemctl enable docker
+   23  systemctl status docker
+   24  ps aux | grep -i docker
+   25  docker version
+   26  docker images
+   27  docker container pa -a
+   28  docker container ps -a
+   29  docker images
+   30  docker search mysql
+   31  docker pull mysql
+   32  docker images
+   33  yum install minikube
+   34  yum install mini-kube
+   35  docker --version
+   36  yum search docker
+   37  yum install *docker* -y
+   38  yum install *docker* -y --skip-broken
+   39  docker --version
+   40  docker images
+   41  docker run httpd
+   42  docker run php
+   43  docker images
+   44  docker container ps -a
+   45  docker images
+   46  docker container ps -a
+   47  docker container start cocky_banach
+   48  docker container ps -a
+   49  docker container inspect cocky_banach
+   50  curl --version
+   51  yum install curl -y
+   52  curl http://172.17.0.2
+   53  curl http://172.17.0.2:80
+   54  curl http://172.17.0.2
+   55  yum install git -y
+   56  git clone https://github.com/amitkumarjain4u2u/aws.git
+   57  cd aws
+   58  ls -ltr
+   59  history
+   60  touch history
+   61  ls -ltr
+   62  touch history.txt
+   63  pwd
+   64  history >> /root/aws/history.txt
+    1  yum update
+    2  yum repolist all
+    3  mandb
+    4  updatedb
+    5  hostnamectl
+    6  docker --version
+    7  cd /etc/yum.repos.d/
+    8  touchh docker.repo
+    9  touch docker.repo
+   10  vim docker.repo
+   11  yum repolist all
+   12  ls -l
+   13  vim docker.repo 
+   14  sudo yum update -y
+   15  vim docker.repo 
+   16  sudo yum update -y
+   17  sudo yum install docker-engine
+   18  docker --version
+   19  yum repolist all
+   20  sudo service docker start
+   21  systemctl status docker
+   22  systemctl enable docker
+   23  systemctl status docker
+   24  ps aux | grep -i docker
+   25  docker version
+   26  docker images
+   27  docker container pa -a
+   28  docker container ps -a
+   29  docker images
+   30  docker search mysql
+   31  docker pull mysql
+   32  docker images
+   33  yum install minikube
+   34  yum install mini-kube
+   35  docker --version
+   36  yum search docker
+   37  yum install *docker* -y
+   38  yum install *docker* -y --skip-broken
+   39  docker --version
+   40  docker images
+   41  docker run httpd
+   42  docker run php
+   43  docker images
+   44  docker container ps -a
+   45  docker images
+   46  docker container ps -a
+   47  docker container start cocky_banach
+   48  docker container ps -a
+   49  docker container inspect cocky_banach
+   50  curl --version
+   51  yum install curl -y
+   52  curl http://172.17.0.2
+   53  curl http://172.17.0.2:80
+   54  curl http://172.17.0.2
+   55  yum install git -y
+   56  git clone https://github.com/amitkumarjain4u2u/aws.git
+   57  cd aws
+   58  ls -ltr
+   59  history
+   60  touch history
+   61  ls -ltr
+   62  touch history.txt
+   63  pwd
+   64  history >> /root/aws/history.txt
+   65  cat /root/aws/history.txt
+   66  dokcer images
+   67  docker images
+   68  docker container pa -a
+   69  docker container ps -a
+   70  docker login
+   71  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+   72  docker login
+   73  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+   74  docker login docker.imvu.com
+   75  docker login hub.docker.com
+   76  docker login
+   77  docker login hub.docker.com
+   78  docker images
+   79  docker push httpd
+   80  docker login hub.docker.com
+   81  docker push httpd
+   82  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+   83  pwd
+   84  home
+   85  cd ~
+   86  pwd
+   87  cd root/
+   88  ls -la
+   89  cd /.docker
+   90  cd .docker
+   91  ls -ltr
+   92  vim config.jason
+   93  vim config.json
+   94  docker login www.hub.docker.com
+   95  docker login  https://www.hub.docker.com
+   96  docker login hub.docker.com
+   97  vim config.json
+   98  docker login hub.docker.com
+   99  vim config.json
+  100  docker login hub.docker.com
+  101  docker ps --no-trunc
+  102  docker ps a
+  103  docker ps -a
+  104  docker pull ubuntu
+  105  docker images
+  106  docker container exec -it 775349758637
+  107  docker container exec -it 775349758637 /bin/bash
+  108  docker run ubuntu
+  109  docker start ubuntu
+  110  docker images
+  111  docker start 775349758637
+  112  docker container start 775349758637
+  113  docker container ps -a
+  114  docker container exec -it 709ab0b99340 /bin/bash
+  115  docker container exec -it jovial_kilby /bin/bash
+  116  systemctl status docker
+  117  docker images
+  118  docker container pa -a
+  119  docker images
+  120  docker container ps -a
+  121  docker container start 709ab0b99340
+  122* docker container exec
+  123  docker container ps -a
+  124  docker container exec -it jovial_kilby /bin/bash
+  125  docker run hello-world
+  126  docker images
+  127  docker container ps-a
+  128  docker container ps -a
+  129  docker container exec -it 31718f0bccd9 /bin/bash
+  130  docker start 31718f0bccd9
+  131  docker images
+  132  docker container ps -a
+  133  yum install nmap -y
+  134  nmap localhost
+  135  yum install httpd -y
+  136  nmap localhost
+  137  systemctl enable httpd
+  138  systemctl start httpd
+  139  nmap localhost
+  140  yum install nginx -y
+  141  yum install nginx** -y
+  142  yum install nginx* -y
+  143  yum install nginx1* -y
+  144  yum install ngnix -y
+  145  yum search ngnix
+  146  yum search nginx
+  147  yum install nginx -y
+  148  sudo amazon-linux-extras install nginx1* -y
+  149  sudo amazon-linux-extras install nginx1.12
+  150  nmap localhost
+  151  systemctl status nginx
+  152  systemctl enable nginx
+  153  systemctl start nginx
+  154  systemctl status nginx.service
+  155  systemctl start nginx.service
+  156  firewall-cmd ports
+  157  firewall-cmd --list-all
+  158  yum install firewall-cmd
+  159  yum remove nginx
+  160  nginx -version
+  161  nginx --version
+  162  yum list installed
+  163  docker images
+  164  docker colume ls 
+  165  docker volume ls 
+  166  docker container ps -
+  167  docker container ps -a
+  168  docker volume ls 
+  169  docker start 31718f0bccd9
+  170  docker container ps -a
+  171  docker volume ls 
+  172  docker volume create db_vol --driver local
+  173  docker volume ls 
+  174  docker run -itd --name db1 --hostname db1 -e MYSQL_ROOT_PASSWORD=redhat -v vol1:/var/lib/mysql mysql latest
+  175  docker logs db1 -r
+  176  docker logs db1 -f
+  177  docker volume ls 
+  178  docker logs db1 -f
+  179  docker logs db1
+  180  docker run mysql
+  181  docker logs db1 -f
+  182  docker images
+  183  docker container ps -a
+  184  docker run 0e8bc49d7711
+  185  docker run --help
+  186  cd ..
+  187  mkdir samsung_web
+  188  ls -ltr
+  189  cd aws
+  190  mkdir samsung_web
+  191  ls -ltr
+  192  touch Dockerfile
+  193  vim Dockerfile 
+  194  docker build -t samsung/web-v1
+  195  vim Dockerfile 
+  196  docker build -t samsung/web-v1
+  197  vim Dockerfile 
+  198  docker build -t samsung/web-v1
+  199  docker build -t samsung/web:v1
+  200  ls -ltr
+  201  docker build -t samsung/web:v1 .
+  202  vim Dockerfile 
+  203  docker build -t samsung/web:v2 .
+  204  docker images
+  205  docker build -t samsung/web:v3 .
+  206  docker images
+  207  vim Dockerfile 
+  208  docker build -t samsung/web:v4 .
+  209  docker images
+  210  docker push samsung/web
+  211  docker push samsung/web:v4
+  212  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+  213  docker push samsung/web:v4
+  214  docker login --username  amitkumarjain4u2u --password Amit@9460781203  push samsung/web:v4
+  215  vim Dockerfile 
+  216  docker build -t samsung/web:v5 .
+  217  vim Dockerfile 
+  218  docker login
+  219  docker tag samsung/web:v4 samsung/web:v4
+  220  docker push samsung/web:v4
+  221  docker tag samsung/web:v4 samsung/web:v41
+  222  docker images
+  223  docker push samsung/web:v41
+  224  docker tag samsung/web:v4 amitkumarjain4u2u/firstimage
+  225* docker tag samsung/web:v4 amitkumarjain4u2u/samsung/web:v
+  226  docker push amitkumarjain4u2u/samsung/web:v4
+  227  docker login
+  228  docker push amitkumarjain4u2u/samsung/web:v4
+  229  docker login docker.io
+  230  docker push amitkumarjain4u2u/samsung/web:v4
+  231  docker images
+  232  docker push amitkumarjain4u2u/firstimage
+  233  history
+  234  history >> /root/aws/history.txt
+    1  yum update
+    2  yum repolist all
+    3  mandb
+    4  updatedb
+    5  hostnamectl
+    6  docker --version
+    7  cd /etc/yum.repos.d/
+    8  touchh docker.repo
+    9  touch docker.repo
+   10  vim docker.repo
+   11  yum repolist all
+   12  ls -l
+   13  vim docker.repo 
+   14  sudo yum update -y
+   15  vim docker.repo 
+   16  sudo yum update -y
+   17  sudo yum install docker-engine
+   18  docker --version
+   19  yum repolist all
+   20  sudo service docker start
+   21  systemctl status docker
+   22  systemctl enable docker
+   23  systemctl status docker
+   24  ps aux | grep -i docker
+   25  docker version
+   26  docker images
+   27  docker container pa -a
+   28  docker container ps -a
+   29  docker images
+   30  docker search mysql
+   31  docker pull mysql
+   32  docker images
+   33  yum install minikube
+   34  yum install mini-kube
+   35  docker --version
+   36  yum search docker
+   37  yum install *docker* -y
+   38  yum install *docker* -y --skip-broken
+   39  docker --version
+   40  docker images
+   41  docker run httpd
+   42  docker run php
+   43  docker images
+   44  docker container ps -a
+   45  docker images
+   46  docker container ps -a
+   47  docker container start cocky_banach
+   48  docker container ps -a
+   49  docker container inspect cocky_banach
+   50  curl --version
+   51  yum install curl -y
+   52  curl http://172.17.0.2
+   53  curl http://172.17.0.2:80
+   54  curl http://172.17.0.2
+   55  yum install git -y
+   56  git clone https://github.com/amitkumarjain4u2u/aws.git
+   57  cd aws
+   58  ls -ltr
+   59  history
+   60  touch history
+   61  ls -ltr
+   62  touch history.txt
+   63  pwd
+   64  history >> /root/aws/history.txt
+   65  cat /root/aws/history.txt
+   66  dokcer images
+   67  docker images
+   68  docker container pa -a
+   69  docker container ps -a
+   70  docker login
+   71  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+   72  docker login
+   73  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+   74  docker login docker.imvu.com
+   75  docker login hub.docker.com
+   76  docker login
+   77  docker login hub.docker.com
+   78  docker images
+   79  docker push httpd
+   80  docker login hub.docker.com
+   81  docker push httpd
+   82  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+   83  pwd
+   84  home
+   85  cd ~
+   86  pwd
+   87  cd root/
+   88  ls -la
+   89  cd /.docker
+   90  cd .docker
+   91  ls -ltr
+   92  vim config.jason
+   93  vim config.json
+   94  docker login www.hub.docker.com
+   95  docker login  https://www.hub.docker.com
+   96  docker login hub.docker.com
+   97  vim config.json
+   98  docker login hub.docker.com
+   99  vim config.json
+  100  docker login hub.docker.com
+  101  docker ps --no-trunc
+  102  docker ps a
+  103  docker ps -a
+  104  docker pull ubuntu
+  105  docker images
+  106  docker container exec -it 775349758637
+  107  docker container exec -it 775349758637 /bin/bash
+  108  docker run ubuntu
+  109  docker start ubuntu
+  110  docker images
+  111  docker start 775349758637
+  112  docker container start 775349758637
+  113  docker container ps -a
+  114  docker container exec -it 709ab0b99340 /bin/bash
+  115  docker container exec -it jovial_kilby /bin/bash
+  116  systemctl status docker
+  117  docker images
+  118  docker container pa -a
+  119  docker images
+  120  docker container ps -a
+  121  docker container start 709ab0b99340
+  122* docker container exec
+  123  docker container ps -a
+  124  docker container exec -it jovial_kilby /bin/bash
+  125  docker run hello-world
+  126  docker images
+  127  docker container ps-a
+  128  docker container ps -a
+  129  docker container exec -it 31718f0bccd9 /bin/bash
+  130  docker start 31718f0bccd9
+  131  docker images
+  132  docker container ps -a
+  133  yum install nmap -y
+  134  nmap localhost
+  135  yum install httpd -y
+  136  nmap localhost
+  137  systemctl enable httpd
+  138  systemctl start httpd
+  139  nmap localhost
+  140  yum install nginx -y
+  141  yum install nginx** -y
+  142  yum install nginx* -y
+  143  yum install nginx1* -y
+  144  yum install ngnix -y
+  145  yum search ngnix
+  146  yum search nginx
+  147  yum install nginx -y
+  148  sudo amazon-linux-extras install nginx1* -y
+  149  sudo amazon-linux-extras install nginx1.12
+  150  nmap localhost
+  151  systemctl status nginx
+  152  systemctl enable nginx
+  153  systemctl start nginx
+  154  systemctl status nginx.service
+  155  systemctl start nginx.service
+  156  firewall-cmd ports
+  157  firewall-cmd --list-all
+  158  yum install firewall-cmd
+  159  yum remove nginx
+  160  nginx -version
+  161  nginx --version
+  162  yum list installed
+  163  docker images
+  164  docker colume ls 
+  165  docker volume ls 
+  166  docker container ps -
+  167  docker container ps -a
+  168  docker volume ls 
+  169  docker start 31718f0bccd9
+  170  docker container ps -a
+  171  docker volume ls 
+  172  docker volume create db_vol --driver local
+  173  docker volume ls 
+  174  docker run -itd --name db1 --hostname db1 -e MYSQL_ROOT_PASSWORD=redhat -v vol1:/var/lib/mysql mysql latest
+  175  docker logs db1 -r
+  176  docker logs db1 -f
+  177  docker volume ls 
+  178  docker logs db1 -f
+  179  docker logs db1
+  180  docker run mysql
+  181  docker logs db1 -f
+  182  docker images
+  183  docker container ps -a
+  184  docker run 0e8bc49d7711
+  185  docker run --help
+  186  cd ..
+  187  mkdir samsung_web
+  188  ls -ltr
+  189  cd aws
+  190  mkdir samsung_web
+  191  ls -ltr
+  192  touch Dockerfile
+  193  vim Dockerfile 
+  194  docker build -t samsung/web-v1
+  195  vim Dockerfile 
+  196  docker build -t samsung/web-v1
+  197  vim Dockerfile 
+  198  docker build -t samsung/web-v1
+  199  docker build -t samsung/web:v1
+  200  ls -ltr
+  201  docker build -t samsung/web:v1 .
+  202  vim Dockerfile 
+  203  docker build -t samsung/web:v2 .
+  204  docker images
+  205  docker build -t samsung/web:v3 .
+  206  docker images
+  207  vim Dockerfile 
+  208  docker build -t samsung/web:v4 .
+  209  docker images
+  210  docker push samsung/web
+  211  docker push samsung/web:v4
+  212  docker login --username  amitkumarjain4u2u --password Amit@9460781203
+  213  docker push samsung/web:v4
+  214  docker login --username  amitkumarjain4u2u --password Amit@9460781203  push samsung/web:v4
+  215  vim Dockerfile 
+  216  docker build -t samsung/web:v5 .
+  217  vim Dockerfile 
+  218  docker login
+  219  docker tag samsung/web:v4 samsung/web:v4
+  220  docker push samsung/web:v4
+  221  docker tag samsung/web:v4 samsung/web:v41
+  222  docker images
+  223  docker push samsung/web:v41
+  224  docker tag samsung/web:v4 amitkumarjain4u2u/firstimage
+  225* docker tag samsung/web:v4 amitkumarjain4u2u/samsung/web:v
+  226  docker push amitkumarjain4u2u/samsung/web:v4
+  227  docker login
+  228  docker push amitkumarjain4u2u/samsung/web:v4
+  229  docker login docker.io
+  230  docker push amitkumarjain4u2u/samsung/web:v4
+  231  docker images
+  232  docker push amitkumarjain4u2u/firstimage
+  233  history
+  234  history >> /root/aws/history.txt
