@@ -1,0 +1,13 @@
+FROM centos
+MAINTAINER Amit Kumar jain amitkumarjain4u2u@gmail.com
+RUN yum update -y
+RUN yum install curl -y
+RUN yum install vim -y
+RUN yum install curl -y
+RUN yum install wget -y
+RUN yum install tree -y
+RUN yum install httpd -y
+COPY index.html /var/www/html/
+CMD [“/usr/sbin/httpd”,” -D”,” FOREGROUND”]
+EXPOSE 80
+
