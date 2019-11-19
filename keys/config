@@ -1,0 +1,31 @@
+HOST m
+   user ubuntu
+   hostname ec2-13-233-215-111.ap-south-1.compute.amazonaws.com
+   IdentityFile /c/Users/inajain20/.ssh/KP_KUBERNETES.pem
+   PasswordAuthentication no
+   Port 22
+   StrictHostKeyChecking no
+
+HOST w1
+   user ubuntu
+   hostname ec2-13-232-100-60.ap-south-1.compute.amazonaws.com
+   IdentityFile /c/Users/inajain20/.ssh/KP_KUBERNETES.pem
+   PasswordAuthentication no
+   Port 22
+   StrictHostKeyChecking no
+
+HOST w2
+   user ubuntu
+   hostname ec2-52-66-206-174.ap-south-1.compute.amazonaws.com
+   IdentityFile /c/Users/inajain20/.ssh/KP_KUBERNETES.pem
+   PasswordAuthentication no
+   Port 22
+   StrictHostKeyChecking no
+
+HOST w3
+   user ubuntu
+   hostname ec2-13-233-229-212.ap-south-1.compute.amazonaws.com
+   IdentityFile /c/Users/inajain20/.ssh/KP_KUBERNETES.pem
+   PasswordAuthentication no
+   Port 22
+   StrictHostKeyChecking no
