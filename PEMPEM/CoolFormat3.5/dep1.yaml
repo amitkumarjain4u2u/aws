@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+   name: sam-dep1
+   namespace: default
+   lables:
+      app: sam-dep1
+spec:
+   replicas: 3
+   strategy: {}
+   selector:
+      matchLabels:
+         app: blore1
+   metadata:
+      labels:
+         app: blore1
+      spec:
+         containers:
+         - name: bc1
+           image: nginx
+           imagePullPolicy: IfNotPresent
+           ports:
+           - name: bc1-port1
+             protocol: TCP
+             containerPort: 80
+           - name: bc1-port2
+             protocol: TCP
+             ContainerPort: 443
+         resources:
+            limits:
+               memory:
+               
+               
+        
+
+
